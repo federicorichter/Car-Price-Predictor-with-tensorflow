@@ -10,8 +10,11 @@ For this project, I implemented a Sequential model using Keras' Sequential API. 
   - Four dense layers, with the final layer producing a single output: the predicted car price.
   - **Compilation settings**:
      - **Optimizer**: Adam
+     - **Loss function**: Mean Absolute Error (MAE)
     - **Metrics**: Root Mean Squared Error (RMSE)
+   
 ![image](https://github.com/user-attachments/assets/9c0f6823-0b00-45c6-8618-dca6b9b4edd4)
+
 The model was trained on the selected dataset for 100 epochs.
 
 ### 🧪 Validation and testing
